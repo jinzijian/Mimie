@@ -1,66 +1,85 @@
 # Mimie  
+The World’s First Open-Source **AI Video Agent**
 
-**The World’s First Open-Source AI Video Agent**  
-*Mimie defines a new paradigm: the AI Video Agent. From script planning to multi-segment generation and automated editing, Mimie transforms raw ideas and media into complete, coherent, long-form videos.*  
+Mimie is not just another tool — it is the first open-source implementation of the **AI Video Agent** paradigm.  
+It redefines video generation by moving beyond clip creation, enabling AI to **plan, direct, and complete entire productions**.  
 
 ---
 
-## 🎬 What is an AI Video Agent?  
+## 🧩 What is an AI Video Agent?  
+
+We define the **AI Video Agent** as a new paradigm that must provide three essential capabilities to cover the full spectrum of video creation:
+
+- **Fully Generative**  
+  - **Input**: Text description (prompt)  
+  - **Output**: Script planning → segmented generation → automatic assembly → complete long-form video  
+
+- **Semi-Generative**  
+  - **Input**: User-provided assets (images or clips)  
+  - **Output**: Blend real media with generated segments to create a new video  
+
+- **Pure Editing**  
+  - **Input**: Existing media library  
+  - **Output**: Automatic script → clip selection → transitions/subtitles/music → polished final cut  
+
+---
+
+## 🎬 Why Do We Need AI Video Agents?  
 
 Current video generation models (Veo, Luma, Pika, etc.) are powerful but limited:  
-- They **only produce short clips** (seconds long)  
-- They **lack script planning** and story continuity  
-- They **cannot assemble complete videos** without manual editing  
 
-**Mimie introduces the concept of the AI Video Agent:**  
-1. **Script Planning** – analyze the task, write a structured storyline with scenes and transitions  
-2. **Segmented Generation & Review** – generate video/image assets piece by piece, with quality control  
-3. **Automated Assembly** – edit, stitch, and finalize into a complete long-form video  
+- They only produce short clips (seconds long)  
+- They lack script planning and story continuity  
+- They cannot assemble complete videos without manual editing  
+- They cannot understand or reuse existing media assets  
 
-👉 In other words, **Mimie elevates AI from “generating clips” to “directing an entire production.”**  
+In contrast, the **AI Video Agent** unifies these capabilities into an end-to-end pipeline:  
+
+- **Script Planning** – analyze the task, produce structured storylines and transitions  
+- **Segmented Generation & Review** – create video/image assets scene by scene with quality control  
+- **Automated Assembly** – edit, stitch, and finalize into a complete long-form video  
+- **Media Understanding & Reuse** – analyze, organize, and integrate existing assets  
+
+👉 In other words, video models are just the **“camera,”** while the AI Video Agent is the **“director.”**  
 
 ---
 
-## 🧩 Three Modes of Video Creation  
+## 🌟 Introducing Mimie  
 
-Mimie redefines video generation into three fundamental task types:  
+**Mimie** is the world’s first open-source implementation of the AI Video Agent paradigm:  
 
-1. **Fully Generative**  
-   - Input: Text description (prompt)  
-   - Output: Multi-segment video, scripted → generated → assembled automatically  
+- **Script Planning** – structured storylines with scenes and transitions  
+- **Segmented Generation & Review** – generate and validate assets piece by piece  
+- **Automated Assembly** – seamless stitching and editing into final productions  
+- **Media Understanding & Reuse** – manage, analyze, and incorporate real or external assets  
 
-2. **Semi-Generative**  
-   - Input: User-provided assets (images or video clips)  
-   - Output: Mimie blends real media with generated segments, creating a new video  
-
-3. **Pure Editing**  
-   - Input: Existing media library  
-   - Output: Mimie writes the script, selects clips, applies transitions/subtitles/music, and exports a polished final cut  
+✨ Mimie transforms fragmented model capabilities into a **systematic director**, elevating AI from a “clip factory” to a **full creative team**.  
 
 ---
 
 ## ✨ Key Features  
 
 ### 🧠 Intelligent Agent System  
-- **AgentBase**: Flexible foundation for specialized agents  
+- **AgentBase**: Flexible foundation for building specialized agents  
 - **VideoAgent**: Pre-configured for video creation tasks  
 - **Memory Management**: Persistent history for multi-step reasoning  
 - **Tool Integration**: 15+ modular tools for generation, editing, and analysis  
 
 ### 🎬 End-to-End Video Pipeline  
-- **Script Generation**: Plan storylines with structured timing  
-- **Video Generation**: Text-to-video with Veo3 and future models  
-- **Video Understanding**: Analyze content, pacing, quality  
+- **Script Generation**: Structured storyline and timing planning  
+- **Video Generation**: Text-to-video using Veo3 and future models  
+- **Video Understanding**: Analyze content, pacing, and quality  
 - **Video Editing & Assembly**: Automated stitching with transitions and effects  
 - **Video Verification**: Quality and format compliance checks  
 
-### 🖼️ Image & Media Tools  
+### 🖼️ Media Tools  
 - **Image Generation & Editing** (OpenAI, AceData APIs)  
 - **Image Understanding & Verification** (Google Gemini)  
-- **Smart Asset Management**: Organize, reuse, and upload media  
+- **Smart Asset Management**: Organize, reuse, and upload media assets  
 
 ### 🔧 Developer-Friendly Architecture  
 - **Modular Design**: Reusable tool abstractions  
 - **LLM Flexibility**: OpenAI, Anthropic Claude, custom models  
 - **API-Ready**: Connectors for video/image APIs and cloud services  
-- **Extensible**: Easy to add custom tools or pipelines  
+- **Extensible**: Easily add custom tools or pipelines  
+
