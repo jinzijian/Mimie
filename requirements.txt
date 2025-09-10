@@ -1,0 +1,49 @@
+# Python Version: 3.11+ (tested with 3.13)
+# Installation: pip install -r requirements.txt
+
+# Core dependencies
+pydantic>=2.0.0,<3.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0,<3.0.0
+
+# LLM and AI services
+# Note: Using older versions for Python 3.13 compatibility
+litellm>=1.40.0,<1.50.0
+openai>=1.51.0,<1.60.0
+google-generativeai
+
+# Video processing
+ffmpeg-python>=0.2.0
+
+# Text processing and utilities
+gitignore-parser>=0.1.0
+rich>=13.0.0
+
+# Image processing
+Pillow>=9.0.0
+
+# Simple GUI / dashboard
+streamlit>=1.36.0,<2.0.0
+
+# Supabase client
+supabase>=2.0.0,<3.0.0
+
+# HTTP requests with retry support
+urllib3>=1.21.1,<3.0.0
+
+# ElevenLabs TTS API
+elevenlabs>=0.2.0
+
+# SRT processing
+srt>=3.1.0,<4.0.0
+
+# Video processing
+moviepy>=1.0.3,<2.0.0
+
+# Optional: for advanced audio processing
+# pydub
+
+# Development and testing (optional)
+# pytest
+# black
+# flake8
